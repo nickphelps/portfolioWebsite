@@ -1,0 +1,25 @@
+{
+  "name": "portfilio_website",
+  "version": "1.0.0",
+  "description": "Portfilio Website for Nick Phelps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickphelps/portfolioWebsite.git"
+  },
+  "author": "Nick Phelps (Nick90052@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickphelps/portfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/nickphelps/portfolioWebsite#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+#header-image {
+    background: url("images/background.jpg");
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: white
+}
+
+/*About Me Styles*/
+#about-me {
+	max-width: 1100px;
+	margin: auto;
+    padding: 50px 50px 25px;
+    background-color: white;
+}
+
+#about-image {
+	border: 15px solid white;
+	border-radius: 100%; 
+	margin-top: -140px;
+	width: 250px;
+     float: right;
+}
+
+/* Project Styles */
+
+#feature-project {
+	margin: auto;
+    padding: 50px 50px 25px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Project Lists */
+/* #project-wrapper{
+    width: 100%;
+    background-color: white;
+}
+
+#project-text {
+	color: black;
+    max-width: 750px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.overlay {
+	height: 100%;
+	z-index: 200;
+	transition: all 0.7s ease;
+	padding-top: 40px
+}
+
+.no-touchevents .project:hover .overlay,
+.project.hover .overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	background: white;
+    opacity: 0.9;
+    top: 0;
+} */
+
+.portfolio-wrapper {
+    width: 50%;
+    position: relative;
+	/*background-color: #eaebed; /* very light gray */
+	color: white;
+}
+
+#portfolio-text {
+	margin: 41px auto 78px;
+	color: black;
+    max-width: 750px;
+    text-align: center;
+}
+
+.card {
+    border: 4px solid #eaebed;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+}
+
+.button {
+    padding: 10px;
+    letter-spacing: 0.05em;
+    /* background: #d4ebf2; */
+}
+
+
+.project-one:hover .image {
+    opacity: 0.3;
+}
+
+.project-one:hover .card-body {
+    opacity: 1;
+}
+
+.project-two:hover .image {
+    opacity: 0.3;
+}
+
+.project-two:hover .card-body {
+    opacity: 1;
+}
+
+.project-three:hover .image {
+    opacity: 0.3;
+}
+
+.project-three:hover .card-body {
+    opacity: 1;
+}
+
+
+.card-body {
+    /* background-color: #4CAF50; */
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+/* Contact */
+.contact-wrapper {
+	width: 100%;
+	background-color: #eff8ff;
+}
+.contact {
+	height: auto;
+	text-align: center;
+}
+.contact img {
+	display: inline-block;
+	height: 60px;
+	padding: 5px;
+}
+.contact-buttons {
+	padding: 15px;
+}
